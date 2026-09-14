@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Villagio | Restaurante Italiano</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+  <nav class="navbar container">
+
+    <a href="#inicio" class="logo">
+      VILLAGIO<span>.</span>
+    </a>
+
+    <button class="menu-btn" aria-label="Abrir menu">
+      ☰
+    </button>
+
+    <ul class="menu">
+
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#cardapio">Cardápio</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+
+    </ul>
+
+    <a href="#reserva" class="btn">
+      Reservar mesa
+    </a>
+
+  </nav>
+
+</header>
+
+
+<main>
+
+<section class="hero" id="inicio">
+
+  <div class="overlay"></div>
+
+  <div class="container hero-content">
+
+    <p class="subtitle">
+      RESTAURANTE ITALIANO
+    </p>
+
+    <h1>
+      Sabores que transformam momentos em memórias.
+    </h1>
+
+    <p class="hero-text">
+      Uma experiência gastronômica criada para quem aprecia
+      ingredientes selecionados, ambiente sofisticado e pratos
+      preparados com paixão.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#reserva" class="btn">
+        Fazer reserva
+      </a>
+
+      <a href="#cardapio" class="btn-outline">
+        Ver cardápio
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="about container" id="sobre">
+
+  <div class="about-image">
+    <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=80">
+  </div>
+
+  <div class="about-content">
+
+    <p class="subtitle">
+      NOSSA HISTÓRIA
+    </p>
+
+    <h2>
+      Tradição italiana com um toque contemporâneo.
+    </h2>
+
+    <p>
+      O Villagio nasceu inspirado nas pequenas trattorias italianas,
+      trazendo receitas artesanais, massas frescas e uma experiência
+      acolhedora em cada detalhe.
+    </p>
+
+    <div class="numbers">
+
+      <div>
+        <strong>15+</strong>
+        <span>Anos de tradição</span>
+      </div>
+
+      <div>
+        <strong>28</strong>
+        <span>Pratos exclusivos</span>
+      </div>
+
+      <div>
+        <strong>4.9★</strong>
+        <span>Avaliação média</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="menu-section" id="cardapio">
+
+<div class="container">
+
+  <div class="section-title">
+
+    <p class="subtitle">
+      CARDÁPIO
+    </p>
+
+    <h2>
+      Destaques da casa
+    </h2>
+
+  </div>
+
+  <div class="filters">
+
+    <button class="filter active" data-filter="todos">
+      Todos
+    </button>
+
+    <button class="filter" data-filter="massa">
+      Massas
+    </button>
+
+    <button class="filter" data-filter="pizza">
+      Pizzas
+    </button>
+
+    <button class="filter" data-filter="sobremesa">
+      Sobremesas
+    </button>
+
+  </div>
+
+  <div class="cards">
+
+    <article class="food-card" data-category="massa">
+
+      <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80">
+
+      <div class="food-info">
+
+        <h3>Fettuccine Alfredo</h3>
+
+        <p>
+          Massa artesanal com molho cremoso de parmesão.
+        </p>
+
+        <strong>R$ 49</strong>
+
+      </div>
+
+    </article>
+
+
+    <article class="food-card" data-category="pizza">
+
+      <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80">
+
+      <div class="food-info">
+
+        <h3>Pizza Margherita</h3>
+
+        <p>
+          Tomate italiano, mozzarella e manjericão fresco.
+        </p>
+
+        <strong>R$ 58</strong>
+
+      </div>
+
+    </article>
+
+
+    <article class="food-card" data-category="massa">
+
+      <img src="https://images.unsplash.com/photo-1556761223-4c4282c73f77?auto=format&fit=crop&w=700&q=80">
+
+      <div class="food-info">
+
+        <h3>Ravioli di Ricotta</h3>
+
+        <p>
+          Recheio artesanal com manteiga de ervas.
+        </p>
+
+        <strong>R$ 54</strong>
+
+      </div>
+
+    </article>
+
+
+    <article class="food-card" data-category="sobremesa">
+
+      <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=700&q=80">
+
+      <div class="food-info">
+
+        <h3>Tiramisu</h3>
+
+        <p>
+          Clássica sobremesa italiana com café e mascarpone.
+        </p>
+
+        <strong>R$ 28</strong>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</div>
+
+</section>
+
+
+<section class="gallery container" id="galeria">
+
+<div class="section-title">
+
+<p class="subtitle">
+GALERIA
+</p>
+
+<h2>
+Um ambiente para viver experiências.
+</h2>
+
+</div>
+
+<div class="gallery-grid">
+
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80">
+
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80">
+
+<img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80">
+
+<img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80">
+
+</div>
+
+</section>
+
+
+<section class="reservation" id="reserva">
+
+<div class="container reservation-box">
+
+<div>
+
+<p class="subtitle">
+RESERVAS
+</p>
+
+<h2>
+Reserve sua mesa.
+</h2>
+
+<p>
+Escolha a data e horário desejados.
+Nossa equipe entrará em contato para confirmação.
+</p>
+
+</div>
+
+<form id="reservationForm">
+
+<input type="text" id="nome" placeholder="Seu nome" required>
+
+<input type="tel" id="telefone" placeholder="Telefone" required>
+
+<div class="form-row">
+
+<input type="date" id="data" required>
+
+<input type="time" id="hora" required>
+
+</div>
+
+<select id="pessoas">
+
+<option>2 pessoas</option>
+<option>3 pessoas</option>
+<option>4 pessoas</option>
+<option>5 pessoas</option>
+<option>6 pessoas</option>
+
+</select>
+
+<button class="btn" type="submit">
+Reservar pelo WhatsApp
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+<div class="container footer-content">
+
+<div>
+
+<a class="logo">
+VILLAGIO<span>.</span>
+</a>
+
+<p>
+Projeto demonstrativo criado para portfólio de desenvolvimento web.
+</p>
+
+</div>
+
+<div>
+
+<p>Segunda a Sábado</p>
+<strong>18:00 às 23:30</strong>
+
+</div>
+
+<div>
+
+<p>São Paulo - SP</p>
+<strong>Rua Exemplo, 245</strong>
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
