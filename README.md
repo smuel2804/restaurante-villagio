@@ -1,4 +1,3 @@
-```markdown
 # 🍝 Villagio — Restaurante Italiano
 
 Landing page responsiva desenvolvida como projeto demonstrativo para um restaurante italiano fictício.
