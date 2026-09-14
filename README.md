@@ -27,7 +27,7 @@ O projeto foi criado com foco em uma experiência visual elegante, apresentaçã
 
 Acesse o projeto:
 
-COLOQUE_AQUI_O_LINK_DO_GITHUB_PAGES
+https://smuel2804.github.io/restaurante-villagio/
 
 ## 📁 Estrutura
 
